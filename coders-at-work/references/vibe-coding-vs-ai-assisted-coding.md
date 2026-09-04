@@ -60,6 +60,14 @@ This reference captures principles and domain knowledge contrasting unconstraine
 * **Principle**: When an AI assistant prompts you with clarifying questions, treat it as a high-value opportunity to sharpen intent rather than as friction to bypass. Actively answering these questions refines your prompt, uncovers unconsidered edge cases, and locks in critical design decisions before implementation begins.
 * **Why it matters**: Clarification prompts highlight the exact decision forks and ambiguities where the AI would otherwise have to guess. Taking a moment to provide explicit answers prevents misalignment, eliminates premature rework, and transforms rough ideas into robust, well-bounded software specifications.
 
+### 15. The 3-Question AI Litmus Test: Evaluating Proposals & Cutting Through Hype
+* **Principle**: When evaluating any technical document, architectural proposal, or vendor claim that uses the term "Artificial Intelligence" (AI), apply a 3-question diagnostic test to classify the underlying mechanism and cut through marketing ambiguity:
+  1. **Is it learning from data or following hard-coded rules?** If the system evaluates static `if-else` trees, regexes, or deterministic decision matrices, it is a **Rules Engine**, not AI.
+  2. **Is it classifying, predicting, or generating?** If it assigns categories (e.g., fraud detection, spam tagging) or predicts numbers (e.g., forecasting, score estimation), it is **Classical Machine Learning**. If it synthesizes new text, code, images, audio, or multimodal assets, it is **Generative AI**.
+  3. **Does the output change based on what the system has learned?** If the identical input unconditionally produces the exact same output regardless of data updates or training history, it is driven by fixed rules. If the output reflects probabilistic patterns, weights, and representations learned from data, it is genuinely **Machine Learning**.
+* **Why it matters**: In modern engineering, "AI" is frequently used as a vague catch-all label that obscures simple deterministic scripts or traditional statistical models. Applying this 3-question litmus test gives engineers and architects an immediate reality check: it exposes the true maintenance overhead, reveals whether expensive GPU infrastructure and data pipelines are actually required, and ensures teams select the simplest, most resilient architecture for the problem.
+
+
 
 
 

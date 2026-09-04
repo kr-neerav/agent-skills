@@ -12,7 +12,7 @@ This skill captures key learnings, principles, and real-world wisdom distilled f
 ## Domain Knowledge References
 
 * **[Coding - Coders' Experience & Mindset](file:///Users/neerav/Documents/Projects/skills/coders-at-work/references/coders-experience.md)**: 17 timeless engineering principles covering problem ownership, focus, shipping momentum, avoiding rewrites (Strangler Fig), navigation through bad docs, craftsmanship, vocabulary precision, and pragmatic architecture.
-* **[Vibe Coding vs AI-Assisted Coding](file:///Users/neerav/Documents/Projects/skills/coders-at-work/references/vibe-coding-vs-ai-assisted-coding.md)**: 14 principles contrasting unconstrained exploratory "vibe coding" with disciplined AI engineering, intent grounding, checkpointing, transition points (0→1 vs mission-critical), combating skill entropy, TDD, and embracing AI clarification questions.
+* **[Vibe Coding vs AI-Assisted Coding](file:///Users/neerav/Documents/Projects/skills/coders-at-work/references/vibe-coding-vs-ai-assisted-coding.md)**: 15 principles contrasting unconstrained exploratory "vibe coding" with disciplined AI engineering, intent grounding, checkpointing, transition points (0→1 vs mission-critical), combating skill entropy, TDD, AI clarification questions, and the 3-question AI proposal litmus test.
 
 ---
 
