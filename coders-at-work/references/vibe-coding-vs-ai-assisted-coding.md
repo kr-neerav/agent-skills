@@ -40,4 +40,29 @@ This reference captures principles and domain knowledge contrasting unconstraine
 * **Principle**: Just as continuous reliance on GPS navigation atrophies spatial awareness and innate sense of direction, unchecked reliance on AI code generation causes **engineering skill entropy**. To retain sharp mental models, problem-solving intuition, and system mastery, engineers must actively counteract automation bias. This requires using AI as an interactive tutor and reasoning partner rather than an unquestioned oracle—interrogating generated code by asking "why?", analyzing architectural trade-offs, and deliberately engaging in unassisted coding from scratch.
 * **Why it matters**: If an engineer becomes a passive consumer who accepts AI output without understanding the underlying mechanics, their ability to troubleshoot novel edge cases, mentally simulate execution flows, and architect resilient systems steadily decays. Deliberate unassisted practice (the "cognitive gym") and rigorous interrogation ensure the engineer remains the master of the system, preserving foundational intuition and critical judgment.
 
+### 10. Preventing Unintended Gap-Filling (Calibrated Specificity & Explicit Guardrails)
+* **Principle**: When instructions or prompts leave room for interpretation, AI will stochastically fill those gaps in ways you did not anticipate or intend. Disciplined engineering requires providing the right level of specific details, clear boundaries, and explicit constraints to ensure the AI executes strictly in alignment with your intent rather than inventing its own assumptions.
+* **Why it matters**: AI models are completion engines designed to bridge informational voids. If constraints, edge-case handling, and output expectations are underspecified, the model will resolve ambiguities autonomously—silently introducing architectural drift, unintended dependencies, or flawed business logic that require painful rework to untangle.
+
+### 11. Conversational Chunking & Multi-Turn Advantage (Avoiding the "Mega-Prompt" Trap)
+* **Principle**: Working with AI is inherently an iterative process. Attempting to cram every single requirement, edge case, and architectural nuance into a single exhaustive prompt is inefficient and difficult. Leveraging a sequence of focused back-and-forth exchanges—refining, inspecting, and guiding step-by-step—is far more effective and plays directly to the conversational strength of AI.
+* **Why it matters**: One-shot "mega-prompts" create cognitive overhead for the engineer and increase the likelihood that the model will overlook critical details or dilute attention across too many simultaneous constraints. Breaking work into short, progressive turns provides frequent inspection gates, enabling rapid course corrections before the AI diverges down an unwanted path.
+
+### 12. AI as an Interactive Rubber Duck (Unlocking Comprehension & Line-by-Line Debugging)
+* **Principle**: LLMs are extraordinarily powerful thinking companions for unlocking and validating your own understanding. Beyond generating code, use the AI as an active "rubber duck": ask it to explain intricate subsystems, simulate execution flows, or trace logic line-by-line to verify how state evolves across a critical path.
+* **Why it matters**: Passive code reading often glosses over subtle assumptions. Having an AI narrate an execution trace or debate edge cases forces latent logic flaws, concurrency hazards, and unhandled states into plain view—dramatically accelerating debugging while deepening your mental model of the codebase.
+
+### 13. AI-Assisted Test-Driven Development (TDD as the Verification Contract)
+* **Principle**: Test-Driven Development (TDD) pairs powerfully with AI coding. By first prompting the AI to author comprehensive test cases based on functional requirements, reviewing those tests to ensure complete edge-case coverage, and then prompting the AI to write or adjust the implementation until the test suite passes, you establish an objective contract for correctness.
+* **Why it matters**: Writing and reviewing tests first forces interface clarity and operational boundaries before writing implementation logic. Crucially, a robust test suite provides an automated, executable feedback harness for the AI—allowing it to iterate autonomously against concrete pass/fail criteria and eliminating guesswork or silent regressions.
+
+### 14. Embracing AI Clarification (Treating Questions as Alignment Opportunities)
+* **Principle**: When an AI assistant prompts you with clarifying questions, treat it as a high-value opportunity to sharpen intent rather than as friction to bypass. Actively answering these questions refines your prompt, uncovers unconsidered edge cases, and locks in critical design decisions before implementation begins.
+* **Why it matters**: Clarification prompts highlight the exact decision forks and ambiguities where the AI would otherwise have to guess. Taking a moment to provide explicit answers prevents misalignment, eliminates premature rework, and transforms rough ideas into robust, well-bounded software specifications.
+
+
+
+
+
+
 
