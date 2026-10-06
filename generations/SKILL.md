@@ -1,11 +1,11 @@
 ---
 name: "generations"
-description: "Generational cycle theory, archetypes (Prophet, Nomad, Hero, Artist), and Four Turnings framework distilled from Strauss & Howe's Generations. Use this skill when reading the book to capture dictated notes, clarifying concepts from the text, analyzing workplace and societal dynamics through generational lenses, or running interactive Socratic sparring sessions to test generational judgment."
+description: "Generational cycle theory, archetypes (Prophet, Nomad, Hero, Artist), and Four Turnings framework distilled from Strauss & Howe's Generations. Use this skill when reading the book to capture dictated notes, clarifying concepts from the text, analyzing workplace and societal dynamics through generational lenses, or running 5-question Socratic sparring and quiz sessions to test generational judgment."
 ---
 
 # Generations & Historical Cycles Skill
 
-This skill captures key concepts, mental models, and strategic insights distilled from *Generations: The History of America's Future, 1584 to 2069* by William Strauss & Neil Howe. It operates as a **Reading Companion & Note Capture Assistant**, a **Socratic Sparring Partner**, and an **Intergenerational Strategy Advisor**.
+This skill captures key concepts, mental models, and strategic insights distilled from *Generations: The History of America's Future, 1584 to 2069* by William Strauss & Neil Howe. It operates as a **Reading Companion & Note Capture Assistant**, a **Socratic Sparring Partner (Adaptive 5-Question Quizzer)**, and an **Intergenerational Strategy Advisor**.
 
 ---
 
@@ -15,6 +15,7 @@ This skill captures key concepts, mental models, and strategic insights distille
 * **[Archetypes, Turnings & Intergenerational Dynamics](file:///Users/neerav/Documents/Projects/skills/generations/references/archetypes-and-turnings.md)**: Deep dives into archetype behavior signatures, institutional orientations, leadership styles, and the cross-generational clash matrix in organizations.
 * **[Reading Notes & Mindset Log](file:///Users/neerav/Documents/Projects/skills/generations/references/reading-notes.md)**: The dedicated repository of reader-dictated notes, mental models, personal reflections, and synthesized takeaways.
 * **[Generational Sparring & Scenario Practice](file:///Users/neerav/Documents/Projects/skills/generations/references/generational-sparring-scenarios.md)**: Realistic dilemma scenarios, evaluation rubrics, and feedback templates for testing generational judgment.
+* **[Quiz History Directory](file:///Users/neerav/Documents/Projects/skills/generations/quizzes/README.md)**: Stored history of 5-question quizzes, user responses, evaluations, and improvement records.
 * **[Generations Book Source (PDF)](file:///Users/neerav/Documents/Projects/skills/generations/references/generations-strauss-howe.pdf)**: Complete digital edition of *Generations: The History of America's Future, 1584 to 2069* for text lookups, verification, and chapter reference.
 
 ---
@@ -24,7 +25,7 @@ This skill captures key concepts, mental models, and strategic insights distille
 Activate this skill when:
 1. **Note Dictation & Reading Updates**: The user is reading the book and wants to dictate reflections, capture principles, or summarize key sections into the knowledge base (e.g., *"Let's add a note from Chapter X"*, *"Capture this principle for my mindset"*).
 2. **Concept Clarification**: The user asks to clarify a mechanism, archetype, historical cycle, turning, or passage from the book or PDF.
-3. **Interactive Socratic Sparring / Quiz**: The user asks to test their intuition on generational dynamics, archetypes, or historical cycles (e.g., *"Quiz me on the Four Turnings"*, *"Spar with me on managing across archetypes"*, *"Give me a generational leadership scenario"*).
+3. **Interactive Socratic Sparring / Quiz**: The user asks to test their intuition on generational dynamics, archetypes, or historical cycles (e.g., *"Quiz me on the Four Turnings"*, *"Spar with me on managing across archetypes"*, *"Give me a 5-question generational leadership quiz"*).
 4. **Strategic & Organizational Analysis**: The user asks to analyze team dynamics, leadership clashes, hiring strategies, product trends, or societal shifts through the Strauss-Howe generational lens.
 
 ---
@@ -63,32 +64,71 @@ When the user asks questions about specific ideas, historical parallels, or mech
 
 ---
 
-### Mode 3: Socratic Sparring Partner & Adaptive Quizzer
+### Mode 3: Socratic Sparring Partner & 5-Question Quizzer
 
-When the user wants to test, challenge, or sharpen their generational instincts:
+Each quiz session contains exactly 5 questions delivered in a single prompt. It tracks history in [quizzes/](file:///Users/neerav/Documents/Projects/skills/generations/quizzes/README.md) to prevent repeating scenarios and measure improvement over time.
 
 ```
-[ 1. Select Archetype/Turning Dilemma ]  -->  [ 2. Generate Realistic Workplace/Societal Scenario ]  -->  [ 3. Wait for User Answer ]  -->  [ 4. Structured Evaluation & Feedback ]
+[ 1. Review Quiz History ]  -->  [ 2. Select 5 Concepts/Notes ]  -->  [ 3. Present 5 Scenarios ]  -->  [ 4. Await User Answers ]  -->  [ 5. Evaluate All 5 ]  -->  [ 6. Save Quiz Log ]
 ```
 
-#### Step 1: Select a Concept
-Pick a tension from [archetypes-and-turnings.md](file:///Users/neerav/Documents/Projects/skills/generations/references/archetypes-and-turnings.md) (e.g., Nomad manager vs. Hero report, Prophet visionary vs. Artist consensus-builder, navigating a Crisis era).
+#### Step 1: Review Quiz History
+Inspect the [generations/quizzes/](file:///Users/neerav/Documents/Projects/skills/generations/quizzes/README.md) folder:
+1. Read existing quiz markdown files (`generations/quizzes/YYYY-MM-DD-*.md`).
+2. Catalog previously tested archetypes, turnings, lifecycle tensions, and past blind spots.
+3. Select 5 fresh concepts or notes that have not been tested recently, or re-test archetypal dynamics where past quizzes showed gaps. Never repeat the exact same scenario.
 
-#### Step 2: Present a Realistic Scenario
-Craft an authentic workplace, leadership, or institutional dilemma. Do **not** label the archetypes or turnings upfront. Conclude with a targeted question:
-* *"As a leader facing this impasse, how do you diagnose the friction, and what specific action do you take to align the team?"*
+#### Step 2: Select 5 Concepts or Notes
+Choose 5 distinct topics across:
+* [reading-notes.md](file:///Users/neerav/Documents/Projects/skills/generations/references/reading-notes.md) (the reader's captured notes, lifecycle models, and overcompensation mechanics)
+* [archetypes-and-turnings.md](file:///Users/neerav/Documents/Projects/skills/generations/references/archetypes-and-turnings.md) (the 4 archetypes, leadership clash matrix, and lifecycle transits)
+* [strauss-howe-framework.md](file:///Users/neerav/Documents/Projects/skills/generations/references/strauss-howe-framework.md) (the Saeculum, the Four Turnings, and generational turnover)
 
-#### Step 3: Await the User's Response
-Wait for the user's answer without jumping ahead.
+Ensure the 5 questions span distinct dynamics (e.g., Nomad manager vs Hero report, Prophet leadership in an Unraveling, Artist consensus vs Crisis mobilization).
 
-#### Step 4: Structured Evaluation
-Deliver structured feedback using the 4 sections from [generational-sparring-scenarios.md](file:///Users/neerav/Documents/Projects/skills/generations/references/generational-sparring-scenarios.md):
-1. **🎯 Strengths & Alignment**: Commend their keen observations of cohort motivation or dynamics.
-2. **🔍 Blind Spots & Nuances**: Highlight overlooked generational instincts or systemic trade-offs.
-3. **📖 Reference Principle**: Link to the underlying theory:
+#### Step 3: Present 5 Questions in One Batch
+Present all 5 questions together in a single message. Do not reveal the underlying archetypes, turnings, or answers upfront. Format each question clearly:
+
+* **Question 1**: Realistic workplace or societal dilemma (e.g., startup founder vs executive clash, cross-generational mentorship friction, crisis turnaround).
+* **Question 2**: Realistic dilemma.
+* **Question 3**: Realistic dilemma.
+* **Question 4**: Realistic dilemma.
+* **Question 5**: Realistic dilemma.
+
+End the batch with instructions for the user:
+*"Reply with your answers to questions 1 through 5. Once submitted, I will evaluate your diagnoses, highlight blind spots, link reference principles and reading notes, and record the session in your quiz history so you can mark this task complete."*
+
+#### Step 4: Await the User's Response
+Stop and let the user answer all 5 questions in their own words.
+
+#### Step 5: Evaluate All 5 Answers
+When the user replies, evaluate each question systematically using the rubric in [generational-sparring-scenarios.md](file:///Users/neerav/Documents/Projects/skills/generations/references/generational-sparring-scenarios.md):
+
+For each question (1 to 5):
+1. **Model Answer (Recommended Course of Action)**: The concrete leadership intervention grounded in generational lifecycle mechanics, archetypal motivations, and turning dynamics.
+2. **Comparative Rating vs Model Answer**: Concrete rating of how the user's answer compares to the model answer (e.g., `Strong Alignment (90%)`, `Partial Alignment (60%)`, or `Divergent (30%)`), highlighting where their diagnosis matched, what cohort blind spots they showed, and how the model answer resolved the tension.
+3. **🎯 Strengths & Alignment**: What the user identified accurately about cohort motivations and generational instincts.
+4. **🔍 Blind Spots & Overlooked Dynamics**: Overlooked archetypal traits, lifecycle stages, or systemic trade-offs they missed.
+5. **📖 Reference Principle / Reading Note**: Link directly to relevant references:
    * e.g., `[Prophet vs. Nomad Dynamics](file:///Users/neerav/Documents/Projects/skills/generations/references/archetypes-and-turnings.md#prophet-idealist)`
-   * e.g., `[The Fourth Turning](file:///Users/neerav/Documents/Projects/skills/generations/references/strauss-howe-framework.md#2-the-four-turnings-the-seasons-of-the-saeculum)`
-4. **💡 Rule of Thumb / Heuristic**: A memorable 1-2 sentence rule of thumb for real-world leadership.
+   * e.g., `[Chapter 1 Note: Trains on the Track Model](file:///Users/neerav/Documents/Projects/skills/generations/references/reading-notes.md#3-chapter-1-the-trains-on-the-track-lifecycle-model)`
+6. **💡 Rule of Thumb / Heuristic**: A memorable 1-2 sentence heuristic.
+7. **Verdict**: Mark as `Mastered`, `Partially Mastered`, or `Gap Identified`.
+
+Then provide an **Overall Quiz Summary**:
+* **Score**: Numerical score (e.g., `4/5`).
+* **Progress & Improvement**: Compare against past attempts recorded in [quizzes/](file:///Users/neerav/Documents/Projects/skills/generations/quizzes/README.md) (e.g., whether previously identified blind spots were resolved).
+* **Key Learnings**: 2-3 actionable lessons reinforced in this session.
+
+#### Step 6: Persist Quiz Log to `generations/quizzes/`
+Immediately write a new log file to `generations/quizzes/YYYY-MM-DD-quiz-<topic-slug>.md` using the schema in [generations/quizzes/README.md](file:///Users/neerav/Documents/Projects/skills/generations/quizzes/README.md).
+The log file must record:
+- Date, Quiz ID, Topics tested.
+- Overall Score and Improvement Notes.
+- All 5 questions, the user's raw answers, evaluations, and principle links.
+- Key takeaways and items to revisit.
+
+Notify the user that the quiz is complete and provide a clickable markdown link to the newly generated quiz log file so they can mark their task complete.
 
 ---
 

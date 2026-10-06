@@ -27,10 +27,13 @@ When generating sparring challenges, use realistic, multi-layered situations wit
 
 ## Evaluation Rubric (Structured Feedback)
 
-When evaluating user responses during sparring, follow this 4-part structure:
-1. **🎯 Strengths & Alignment**: Highlight where the user accurately identified generational instincts, underlying motivations, or systemic dynamics.
-2. **🔍 Blind Spots & Missing Nuances**: Point out overlooked archetypal traits, historical cycle parallels, or unintended side effects of their proposed solution.
-3. **📖 Reference Principle & Archetype**: Link directly to relevant references:
+When evaluating user responses during sparring, follow this structured format:
+1. **Model Answer (Recommended Intervention)**: The concrete leadership intervention grounded in generational lifecycle mechanics, archetypal motivations, and turning dynamics.
+2. **Comparative Rating vs Model Answer**: Rating of the user's answer against the model answer (e.g., `Strong Alignment (90%)`, `Partial Alignment (60%)`, or `Divergent (30%)`), noting what was captured, what was missed, and why the model answer balanced specific trade-offs.
+3. **🎯 Strengths & Alignment**: Highlight where the user accurately identified generational instincts, underlying motivations, or systemic dynamics.
+4. **🔍 Blind Spots & Overlooked Dynamics**: Point out overlooked archetypal traits, historical cycle parallels, or unintended side effects of their proposed solution.
+5. **📖 Reference Principle & Archetype**: Link directly to relevant references:
    * e.g., `[strauss-howe-framework.md](file:///Users/neerav/Documents/Projects/skills/generations/references/strauss-howe-framework.md)`
    * e.g., `[archetypes-and-turnings.md](file:///Users/neerav/Documents/Projects/skills/generations/references/archetypes-and-turnings.md)`
-4. **💡 Rule of Thumb / Heuristic**: Provide a crisp, memorable takeaway for real-world application.
+6. **💡 Rule of Thumb / Heuristic**: Provide a crisp, memorable takeaway for real-world application.
+7. **Verdict**: Mark as `Mastered`, `Partially Mastered`, or `Gap Identified`.
